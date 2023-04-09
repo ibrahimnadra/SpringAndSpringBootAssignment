@@ -1,0 +1,12 @@
+
+Spring Assignment on spring-branch :-
+
+Create a new Java project using your preferred IDE.Add the Spring Framework library to your project.
+Create a new XML configuration file named applicationContext.xml in the src/main/resources directory.
+Define two beans in the XML configuration file: a MessageService bean and a MessagePrinter bean.
+The MessageService bean should have a method that returns a string message.The MessagePrinter bean
+should have a property of type MessageService and use autowiring by type to wire the MessageService
+bean to the MessagePrinter bean.The MessagePrinter bean should have a method that prints the message
+returned by the MessageService bean.In the main method of the Main class, create an instance of the
+ClassPathXmlApplicationContext class and use it to load the XML configuration file.Retrieve the
+MessagePrinter bean from the application context and call the method that prints the message.
